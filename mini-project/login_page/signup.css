@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(img6.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box {
+    background-color: rgba(0,0,0,0.4);
+    padding: 30px;
+    width: 550px;
+    height: 500px;
+    position: absolute;
+    left:50%; top:40%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.box h1{
+    color: antiquewhite;
+    font-weight: 700;
+}
+
+.box input{
+    position: relative;
+    left: 30%;
+    display: block;
+    background: none;
+    border:0;
+    padding: 14px;
+    border: 3px solid rgb(103, 103, 215);
+    margin: 20px;
+    border-radius: 40px;
+    transition: 0.25px;
+    text-align: center;
+    color: white;
+}
+
+.box input[type="submit"]
+{
+    color:cornflowerblue;
+    width:48mm;
+    cursor : pointer;
+    top: 3%;
+}
+
+.box label{
+    display: inline;
+    position: relative;
+    left: 10%; top: 15px;
+
+    color:cornflowerblue;
+}
+.box input[type="checkbox"]
+{
+    display: inline-block;
+    position: absolute;
+    left:15%;
+    
+}
+
+.box input[type="text"]:focus , .box input[type="password"]:focus{
+    width: 75mm;
+    border-color: rgb(141, 181, 33);
+    left: 21%;
+}
+
+.box input[type="submit"]:hover{
+    color: chartreuse;
+    background: rgb(79, 69, 170);
+}
